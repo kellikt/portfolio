@@ -5,6 +5,46 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Hero />
+      <div className="grid grid-cols-8">
+        <div className="col-span-5">
+          <h2 className="font-heading font-extrabold uppercase text-4xl mb-10">
+            About
+          </h2>
+          <p className="mb-5">
+            Hi, I’m a front-end developer from Honolulu, Hawaii! After
+            graduating from the University of Hawaii at Manoa with a degree in
+            computer science, I have been working as a Web Design and Support
+            Specialist at the University of Hawaii Information Technology
+            Services Department. My projects include the Manoa Cascade Template,
+            System Cascade Template, and the Username Request Application. In my
+            free time, I enjoy drawing, playing Pokemon Go, and finding yummy
+            boba shops.
+          </p>
+          <h3 className="uppercase text-2xl tracking-wider mb-5">Skills</h3>
+          <ul className="uppercase flex">
+            <li className="border rounded border-black p-2 w-fit me-3">
+              React JS
+            </li>
+            <li className="border rounded border-black p-2 w-fit me-3">PHP</li>
+            <li className="border rounded border-black p-2 w-fit me-3">
+              Javascript
+            </li>
+            <li className="border rounded border-black p-2 w-fit me-3">CSS</li>
+            <li className="border rounded border-black p-2 w-fit me-3">HTML</li>
+            <li className="border rounded border-black p-2 w-fit me-3">
+              Apache Velocity
+            </li>
+          </ul>
+        </div>
+        <Image
+          src="/profile.png"
+          alt="Kelli Tamashiro"
+          className="dark:invert col-span-3"
+          width={500}
+          height={24}
+          priority
+        />
+      </div>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           ageaGet atests started by editinokg&nbsp;
