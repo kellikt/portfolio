@@ -4,7 +4,9 @@ export default function Hero() {
       <h1 className="font-heading font-bold text-8xl uppercase mb-5">
         Kelli Tamashiro
       </h1>
-      <p className="text-center text-4xl uppercase">Full-Stack Developer</p>
+      <p className="text-center text-4xl uppercase text-primary-800">
+        Full-Stack Developer
+      </p>
     </div>
   );
 }

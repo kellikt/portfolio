@@ -20,18 +20,26 @@ export default function Home() {
             free time, I enjoy drawing, playing Pokemon Go, and finding yummy
             boba shops.
           </p>
-          <h3 className="uppercase text-2xl tracking-wider mb-5">Skills</h3>
-          <ul className="uppercase flex">
-            <li className="border rounded border-black p-2 w-fit me-3">
+          <h3 className="uppercase text-2xl tracking-wider mb-5 text-primary-800">
+            Skills
+          </h3>
+          <ul className="uppercase flex text-primary-800">
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
               React JS
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3">PHP</li>
-            <li className="border rounded border-black p-2 w-fit me-3">
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+              PHP
+            </li>
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
               Javascript
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3">CSS</li>
-            <li className="border rounded border-black p-2 w-fit me-3">HTML</li>
-            <li className="border rounded border-black p-2 w-fit me-3">
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+              CSS
+            </li>
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+              HTML
+            </li>
+            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
               Apache Velocity
             </li>
           </ul>
@@ -59,16 +67,18 @@ export default function Home() {
             priority
           />
           <div className="col-span-6">
-            <h3 className="uppercase text-2xl tracking-wider mb-5">
+            <h3 className="uppercase text-2xl tracking-wider mb-5 text-primary-800">
               Username Request Application
             </h3>
             <p className="mb-10">Short description</p>
             <ul className="uppercase flex">
               <li className="me-5">
-                <a>GitHub</a>
+                <a className="text-xl border-b-2 border-secondary-800">
+                  GitHub
+                </a>
               </li>
               <li>
-                <a>Live</a>
+                <a className="text-xl border-b-2 border-secondary-800">Live</a>
               </li>
             </ul>
           </div>
