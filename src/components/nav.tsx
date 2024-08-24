@@ -3,13 +3,13 @@ export default function Navbar() {
     <nav className="pt-10 font-heading uppercase fw-3 font-semibold text-3xl tracking-wider px-24 flex">
       <ul className="flex ml-auto mr-0">
         <li className="me-8">
-          <a>About</a>
+          <a href="#about">About</a>
         </li>
         <li className="me-8">
-          <a>Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a>Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
