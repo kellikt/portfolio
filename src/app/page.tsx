@@ -35,7 +35,7 @@ export default function Home() {
   const isVisible3 = useIsVisible(ref3);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between md:p-24 py-24 px-5">
       <Hero />
       <div
         ref={ref1}
@@ -43,7 +43,7 @@ export default function Home() {
           isVisible1 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="col-span-5">
+        <div className="lg:col-span-5 col-span-8">
           <h2
             id="about"
             className="font-heading font-extrabold uppercase text-4xl mb-10"
@@ -63,23 +63,23 @@ export default function Home() {
           <h3 className="uppercase text-2xl tracking-wider mb-5 text-primary-800">
             Skills
           </h3>
-          <ul className="uppercase flex text-primary-800">
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+          <ul className="uppercase flex flex-wrap text-primary-800 mb-5 lg:mb-0 sm:text-sm">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               React JS
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               PHP
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               Javascript
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               CSS
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               HTML
             </li>
-            <li className="border rounded border-black p-2 w-fit me-3 border-primary-600">
+            <li className="border rounded border-black p-2 w-fit me-3 md:mb-0 mb-2 border-primary-600">
               Apache Velocity
             </li>
           </ul>
@@ -87,7 +87,7 @@ export default function Home() {
         <Image
           src="/profile.png"
           alt="Kelli Tamashiro"
-          className="dark:invert col-span-3"
+          className="dark:invert lg:col-span-3 col-span-8 w-full"
           width={500}
           height={24}
           priority
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
       <div
         ref={ref2}
-        className={`py-5 w-full transition-opacity ease-in duration-700 ${
+        className={`lg:py-5 py-20 w-full transition-opacity ease-in duration-700 ${
           isVisible2 ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -109,12 +109,12 @@ export default function Home() {
           <Image
             src="/placeholder.png"
             alt="Kelli Tamashiro"
-            className="dark:invert col-span-2"
+            className="dark:invert md:col-span-2 col-span-8 w-full"
             width={500}
             height={24}
             priority
           />
-          <div className="col-span-6">
+          <div className="md:col-span-6 col-span-8">
             <h3 className="uppercase text-2xl tracking-wider mb-5 text-primary-800">
               Username Request Application
             </h3>
